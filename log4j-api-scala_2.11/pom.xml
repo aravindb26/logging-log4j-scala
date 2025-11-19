@@ -30,9 +30,9 @@
 
   <properties>
     <scala.version.group>2.11</scala.version.group>
-    <scala.version>${scala.version.group}.12</scala.version>
+    <scala.version>2.13.17</scala.version>
     <!-- Prevent usage of `release` parameter to Javac -->
-    <maven.compiler.release />
+    <maven.compiler.release/>
   </properties>
 
   <dependencies>
@@ -105,7 +105,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <!-- No advanced configuration required for a single `package-info.java` -->
-        <configuration combine.self="override" />
+        <configuration combine.self="override"/>
       </plugin>
 
       <plugin>
